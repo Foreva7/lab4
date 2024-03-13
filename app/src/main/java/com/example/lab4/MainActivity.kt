@@ -67,7 +67,7 @@ fun Greeting(selector: Selector) {
         state.value = selector.isFinish()
         if (state.value) {
             Text(
-                text = "Конец, вы набрали " + selector.getPoints() + " баллов",
+                text = "Конец, вы набрали " + selector.getPoints() + " баллов!",
                 Modifier.padding(10.dp),
             )
             Button(
@@ -75,7 +75,7 @@ fun Greeting(selector: Selector) {
                 Modifier.fillMaxWidth(1f)
             )
             {
-                Text(text = "Начать заново!")
+                Text(text = "Начать заново!sdfsdfsdf")
             }
         } else {
             Text(
