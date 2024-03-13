@@ -75,7 +75,7 @@ fun Greeting(selector: Selector) {
                 Modifier.fillMaxWidth(1f)
             )
             {
-                Text(text = "Начать заново")
+                Text(text = "Начать заново!")
             }
         } else {
             Text(
